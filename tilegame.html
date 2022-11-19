@@ -6,8 +6,8 @@
     <title>Unity WebGL Player | One block</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: url('Build/working website.jpg.unityweb') center / cover"></canvas>
-    <script src="Build/working website.loader.js"></script>
+    <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: url('Build/website with good ui.jpg.unityweb') center / cover"></canvas>
+    <script src="Build/website with good ui.loader.js"></script>
     <script>
       // Mobile device style: fill the whole browser client area with the game canvas:
       var meta = document.createElement('meta');
@@ -23,9 +23,9 @@
       document.body.style.textAlign = "left";
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/working website.data.unityweb",
-        frameworkUrl: "Build/working website.framework.js.unityweb",
-        codeUrl: "Build/working website.wasm.unityweb",
+        dataUrl: "Build/website with good ui.data.unityweb",
+        frameworkUrl: "Build/website with good ui.framework.js.unityweb",
+        codeUrl: "Build/website with good ui.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "One block",
