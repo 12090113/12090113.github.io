@@ -5,9 +5,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | One block</title>
   </head>
-  <body style="text-align: left; padding: 0px; border: 0px none; margin: 0px; background: rgb(25, 27, 28);">
-    <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: url('Build/website with good ui.jpg.unityweb') center / cover"></canvas>
-    <script src="Build/website with good ui.loader.js"></script>
+  <body style="text-align: center; padding: 0; border: 0; margin: 0; background: rgb(25, 27, 28);">
+    <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: url('Build/OneBlockWebGL.jpg.unityweb') center / cover"></canvas>
+    <script src="Build/OneBlockWebGL.loader.js"></script>
     <script>
       // Mobile device style: fill the whole browser client area with the game canvas:
       var meta = document.createElement('meta');
@@ -23,9 +23,9 @@
       document.body.style.textAlign = "left";
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/website with good ui.data.unityweb",
-        frameworkUrl: "Build/website with good ui.framework.js.unityweb",
-        codeUrl: "Build/website with good ui.wasm.unityweb",
+        dataUrl: "Build/OneBlockWebGL.data.unityweb",
+        frameworkUrl: "Build/OneBlockWebGL.framework.js.unityweb",
+        codeUrl: "Build/OneBlockWebGL.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "One block",
